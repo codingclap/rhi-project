@@ -130,6 +130,10 @@
  [data-bg-color="red"] {
     background-color: #ED2C2A;
  }
+ [data-p-size="p1"]{
+    font-size: 1em;
+ }
+ 
 [data-font-style="Neutrif Pro"] {
     font-family: Neutrif Pro;
 }
@@ -270,8 +274,7 @@
 #primaryDeck>.primaryDeck-parent>.primaryDeck-child>p {
     font-family: 'Neutrif Pro';
     font-weight: 600;
-    color: #0E3D6A;
-    font-size: 1em;
+    color: #0E3D6A; 
     text-align: center;
 }
 

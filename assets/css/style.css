@@ -118,52 +118,74 @@
     font-style: italic;
 }
 
+[data-blue-color="blue"] {
+   color: #003262;
+}
+[data-font-style="Neutrif Pro"] {
+    font-family: Neutrif Pro;
+}
 
-  * {
-      margin: 0;
-      padding: 0;
-  }
-  
-  .disable {
-      display: none;
-  }
+[data-font-weight="300"] {
+    font-weight: 300;
+}
 
-  .swiper1 {
-      width: 100%;
-      height: 100%;
-  }
+[data-font-weight="500"] {
+    font-weight: 500;
+}
 
-  .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-  }
+[data-font-weight="600"] {
+    font-weight: 600;
+}
 
-  .swiper-slide img {
-      display: block; 
-      object-fit: cover;
-  }
+[data-font-weight="bold"] {
+    font-weight: bold;
+}
 
-  .h-100 {
-      min-height: 100vh;
-  }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-  .deck-container {
-      width: 100%; 
-      max-width: 1920px; 
-      min-height: 100vh;
-      margin: 0 auto;
-  }
+.disable {
+    display: none;
+}
 
-  /*
+.swiper1 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.h-100 {
+    min-height: 100vh;
+}
+
+.deck-container {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*
  #############################
  ######## primaryDeck ########
  #############################
  */
-.header{
+.header {
     position: absolute;
     top: 0;
     display: flex;
@@ -174,103 +196,109 @@
     z-index: +9;
     width: 100%;
 }
-.header > h1{
-    position: absolute; 
+
+.header>h1 {
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Neutrif Pro';
-    color:#003262;
+    color: #003262;
     font-size: 3em;
 }
-.header > .home-logo{
+
+.header>.home-logo {
     position: absolute;
     width: 100%;
     max-width: 120px;
     right: 50px;
 }
-  #primaryDeck {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      background-color: #fff;
-      padding: 0px 0px; 
-      min-height: 100vh;
-      width: 100%;
-      flex-direction: column;
-      position: relative;
-  }
-  #primaryDeck .home-footer{
+
+#primaryDeck {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 0px;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+#primaryDeck .home-footer {
     position: absolute;
     background-image: url(../images/home-footer-pattern.png);
     width: 100%;
     height: 118px;
     bottom: 0;
-  }
+}
 
-  #primaryDeck>.primaryDeck-parent {
-      display: flex;
-      justify-content: center;
-      align-items:self-start;
-      flex-wrap: wrap;
-      gap: 23px;
-      width: 100%;
-      padding: 20px 0px;
-      max-width: 1250px;
-      z-index: +1; 
-  }
+#primaryDeck>.primaryDeck-parent {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-wrap: wrap;
+    gap: 23px;
+    width: 100%;
+    padding: 20px 0px;
+    max-width: 1250px;
+    z-index: +1;
+}
 
-  #primaryDeck>.primaryDeck-parent>.primaryDeck-child {
-      width: 100%;
-      max-width: 190px; 
-      border-radius: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      border: 0px solid rgb(255, 255, 255);
-      cursor: pointer;
-  }
-  #primaryDeck>.primaryDeck-parent>.primaryDeck-child > p{
+#primaryDeck>.primaryDeck-parent>.primaryDeck-child {
+    width: 100%;
+    max-width: 190px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#primaryDeck>.primaryDeck-parent>.primaryDeck-child>p {
     font-family: 'Neutrif Pro';
     font-weight: 600;
-    color:#0E3D6A;
+    color: #0E3D6A;
     font-size: 1em;
     text-align: center;
-  }
-  #primaryDeck>.primaryDeck-parent>.primaryDeck-child > img{
+}
+
+#primaryDeck>.primaryDeck-parent>.primaryDeck-child>img {
     width: 100%;
-  }
+}
 
-  #primaryDeck>.primaryDeck-parent>.primaryDeck-child:hover {
-      
-  }
+#primaryDeck>.primaryDeck-parent>.primaryDeck-child:hover {}
 
 
 
-   /*
+/*
  ##############################
  ######## secondaryDeck ########
  ##############################
  */
 
- #secondaryDeck{
+#secondaryDeck {
     background-color: aqua;
-   
- }
 
- #secondaryDeck > .secondaryDeck-parent{
-    overflow: hidden; 
+}
+
+#secondaryDeck>.secondaryDeck-parent {
+    overflow: hidden;
     height: 100vh;
- }
- #secondaryDeck1 > .secondaryDeck-parent{
-    overflow: hidden; 
+}
+
+#secondaryDeck1>.secondaryDeck-parent {
+    overflow: hidden;
     height: 100vh;
- }
- #secondaryDeck2 > .secondaryDeck-parent{
-    overflow: hidden; 
+}
+
+#secondaryDeck2>.secondaryDeck-parent {
+    overflow: hidden;
     height: 100vh;
- }
+}
 
 
 
@@ -284,18 +312,20 @@
 
 
 
- @media(max-width:1200px){
-    #primaryDeck>.primaryDeck-parent { 
+@media(max-width:1200px) {
+    #primaryDeck>.primaryDeck-parent {
         row-gap: 10px;
         column-gap: 10px;
     }
- }
- @media(max-width:990px){
-    #primaryDeck>.primaryDeck-parent>.primaryDeck-child{
-        max-width:150px;
+}
+
+@media(max-width:990px) {
+    #primaryDeck>.primaryDeck-parent>.primaryDeck-child {
+        max-width: 150px;
     }
-    #primaryDeck>.primaryDeck-parent { 
+
+    #primaryDeck>.primaryDeck-parent {
         row-gap: 2px;
         column-gap: 2px;
     }
- }
+}

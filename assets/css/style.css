@@ -118,9 +118,18 @@
     font-style: italic;
 }
 
-[data-blue-color="blue"] {
+[data-color="white"] {
+    color: #fff;
+ }
+[data-color="blue"] {
    color: #003262;
 }
+[data-color="red"] {
+    color: #ED2C2A;
+ }
+ [data-bg-color="red"] {
+    background-color: #ED2C2A;
+ }
 [data-font-style="Neutrif Pro"] {
     font-family: Neutrif Pro;
 }
@@ -286,18 +295,18 @@
 }
 
 #secondaryDeck>.secondaryDeck-parent {
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+   
 }
 
 #secondaryDeck1>.secondaryDeck-parent {
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    
 }
 
 #secondaryDeck2>.secondaryDeck-parent {
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    
 }
 
 

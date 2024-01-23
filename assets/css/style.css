@@ -191,7 +191,7 @@
 }
   #primaryDeck {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       background-color: #fff;
       padding: 0px 0px; 

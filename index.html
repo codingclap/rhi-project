@@ -12,16 +12,25 @@
 </head>
 
 <body>
+    <div class="container-fluid">
     <div class="deck-container">
 
         <!-- Front View  -->
         <section id="primaryDeck" class="h-100">
-            <div class="header">
-                <h1>Lorem Ipsum</h1>
-                <img src="assets/images/home-logo.png" class="home-logo" alt="">
+            <div class="container">
+                <div class="row justify-content-between align-items-center pt-5">
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-1">
+                        <img src="assets/images/home-icon.png" alt="" class="w-50">
+                    </div>
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-9"> 
+                        <h2 class="text-center">The Main Headline of Furnace</h2>
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-1">
+                        <img src="assets/images/small-logo.png" alt="" class="w-100">
+                    </div>
+                </div>
             </div>
-
-            <div class="primaryDeck-parent">
+            <div class="primaryDeck-parent pt-4 mt-4 pt-lg-5 mt-lg-5 pt-lg-5 mt-lg-5">
                 <div class="primaryDeck-child" data-id="secondaryDeck">
                     <img src="assets/images/box-1.gif" alt="">
                     <p>Basic Oxygen Furnace</p>
@@ -74,7 +83,7 @@
                             <div class="container position-absolute top-0">
                                 <div class="row justify-content-between align-items-center pt-5">
                                     <div class="col-2 col-sm-2 col-md-2 col-lg-1">
-                                        <img src="assets/images/home-icon.png" alt="" class="w-75">
+                                        <img src="assets/images/home-icon.png" alt="" class="w-50">
                                     </div>
                                     <div class="col-8 col-sm-8 col-md-8 col-lg-9">
                                         <p class="mb-0">STEEL / CONVERTER</p>
@@ -85,8 +94,12 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
-                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">
+                             
+                            Slide 3
+                        </div>
                         <div class="swiper-slide">Slide 3</div>
                         <div class="swiper-slide">Slide 4</div>
                         <div class="swiper-slide">Slide 5</div>
@@ -148,7 +161,7 @@
 
     </div>
     <!-- Deck Container Closed -->
-
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -173,10 +186,12 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
+            
             pagination: {
                 el: ".swiper-pagination",
                 type: "fraction",
             },
+            
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",

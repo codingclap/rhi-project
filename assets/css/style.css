@@ -120,20 +120,28 @@
 
 [data-color="white"] {
     color: #fff;
- }
-[data-color="blue"] {
-   color: #003262;
 }
+
+[data-color="blue"] {
+    color: #003262;
+}
+
+[data-color="darkblue"] {
+    color: #0E3D6A;
+}
+
 [data-color="red"] {
     color: #ED2C2A;
- }
- [data-bg-color="red"] {
+}
+
+[data-bg-color="red"] {
     background-color: #ED2C2A;
- }
- [data-p-size="p1"]{
+}
+
+[data-p-size="p1"] {
     font-size: 1em;
- }
- 
+}
+
 [data-font-style="Neutrif Pro"] {
     font-family: Neutrif Pro;
 }
@@ -192,6 +200,25 @@
     min-height: 100vh;
     margin: 0 auto;
 }
+
+.pagination-container {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 284px;
+}
+
+.swiper-pagination {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-radius: 28.397px;
+    background: #FFF;
+    box-shadow: -3px 7px 20.4px 0px rgba(175, 175, 175, 0.29);
+}
+
 
 /*
  #############################
@@ -274,7 +301,7 @@
 #primaryDeck>.primaryDeck-parent>.primaryDeck-child>p {
     font-family: 'Neutrif Pro';
     font-weight: 600;
-    color: #0E3D6A; 
+    color: #0E3D6A;
     text-align: center;
 }
 
@@ -299,17 +326,17 @@
 
 #secondaryDeck>.secondaryDeck-parent {
     overflow-x: hidden;
-   
+
 }
 
 #secondaryDeck1>.secondaryDeck-parent {
     overflow-x: hidden;
-    
+
 }
 
 #secondaryDeck2>.secondaryDeck-parent {
     overflow-x: hidden;
-    
+
 }
 
 

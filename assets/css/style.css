@@ -175,7 +175,7 @@
     display: none;
 }
 
-.swiper1 {
+.swiper1{
     width: 100%;
     height: 100%;
 }
@@ -191,6 +191,7 @@
     align-items: center;
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 .swiper-slide img {
@@ -370,17 +371,17 @@
 }
 
 #secondaryDeck>.secondaryDeck-parent {
-    overflow-x: hidden;
+    overflow: hidden;
 
 }
 
 #secondaryDeck1>.secondaryDeck-parent {
-    overflow-x: hidden;
+    overflow: hidden;
 
 }
 
 #secondaryDeck2>.secondaryDeck-parent {
-    overflow-x: hidden;
+    overflow: hidden;
 
 }
 

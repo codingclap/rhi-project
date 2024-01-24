@@ -266,6 +266,19 @@
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled { 
     display: none;
 }
+
+.custom-styling h3{
+    font-size: 25px;
+}
+.custom-styling h4{
+    font-size: 20px;
+}
+.custom-styling ul li{
+    font-weight: 300;
+    color:#0E3D6A;
+    font-size: 18px;
+    line-height: 1.8em;
+}
 /*
  #############################
  ######## primaryDeck ########

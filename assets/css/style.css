@@ -138,6 +138,10 @@
     background-color: #ED2C2A;
 }
 
+[data-p-size="p0"] {
+    font-size: 0.9em;
+}
+
 [data-p-size="p1"] {
     font-size: 1em;
 }
@@ -177,17 +181,22 @@
 }
 
 .swiper-slide {
+    background-position: center;
+    background-size: cover;
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: block;
+    width: 100%;
 }
 
 .swiper-slide img {
     display: block;
     object-fit: cover;
+    width: 100%;
 }
 
 .h-100 {
@@ -205,7 +214,7 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 284px;
+    width: 350px;
 }
 
 .swiper-pagination {
@@ -219,7 +228,43 @@
     box-shadow: -3px 7px 20.4px 0px rgba(175, 175, 175, 0.29);
 }
 
+.swiper-button-prev {
+    background-image: url(../images/Aroow_Left.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 43px;
+    background: #fff;
+    border-radius: 28.397px;
+    box-shadow: -3px 7px 20.4px 0px rgba(175, 175, 175, 0.29);
+}
 
+.swiper-button-next {
+    background-image: url(../images/Aroow_Right.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 43px;
+    background: #fff;
+    border-radius: 28.397px;
+    box-shadow: -3px 7px 20.4px 0px rgba(175, 175, 175, 0.29);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 55%);
+}
+
+.swiper-button-next::after {
+    display: none; 
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled { 
+    display: none;
+}
 /*
  #############################
  ######## primaryDeck ########
@@ -279,7 +324,7 @@
     justify-content: center;
     align-items: self-start;
     flex-wrap: wrap;
-    gap: 23px;
+    gap: 8px;
     width: 100%;
     padding: 20px 0px;
     max-width: 1250px;

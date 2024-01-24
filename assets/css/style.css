@@ -328,10 +328,10 @@
 #primaryDeck .home-footer {
     position: absolute;
     background-image: url(../images/home-footer-pattern.png);
-    width: 100vw;
-    height: 118px;  
+    width: 100vw; 
     background-repeat: no-repeat;
-    height: 70px;
+    height: 80px;
+    background-size: cover;
     bottom: 0px;
 }
 

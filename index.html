@@ -285,8 +285,11 @@
                 let data_id = this.getAttribute('data-id');
                 let slider_id = document.querySelector("#" + data_id);
                 console.log(slider_id);
-                primaryDeck.style = "display:none";
-                slider_id.style = "display:unset"
+                setTimeout(() =>{
+                    primaryDeck.style = "display:none";
+                slider_id.style = "display:unset";
+                }, '1000');
+               
             });
 
         });

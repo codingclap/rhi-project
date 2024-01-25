@@ -297,7 +297,14 @@
     font-weight: 300;
     color:#0E3D6A;
     font-size: 18px;
-    line-height: 1.8em;
+    line-height: 1.3em;
+    padding: 5px 0px;
+}
+.home-icon-vector:hover{
+    opacity:1!important;
+}
+.home-icon-vector:hover path{
+    fill:#003262;
 }
 /*
  #############################

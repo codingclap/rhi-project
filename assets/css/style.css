@@ -179,6 +179,12 @@
     width: 100%;
     height: 100%;
 }
+.custom-container{
+   width: 100%;
+   max-width: 1500px;
+   margin:0 auto;
+   padding:0 15px;
+}
 
 .swiper-slide {
     background-position: center;
@@ -192,6 +198,20 @@
     display: block;
     width: 100%;
     height: 100%;
+ 
+}
+.deck-container::after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
 }
 
 .swiper-slide img {
@@ -253,7 +273,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    top: var(--swiper-navigation-top-offset, 55%);
+    top: var(--swiper-navigation-top-offset, 65%);
 }
 
 .swiper-button-next::after {
@@ -390,8 +410,7 @@
 }
 
 #secondaryDeck>.secondaryDeck-parent {
-    overflow: hidden;
-
+    overflow: hidden; 
 }
 
 #secondaryDeck1>.secondaryDeck-parent {

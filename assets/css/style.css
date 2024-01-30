@@ -170,7 +170,9 @@
     margin: 0;
     padding: 0;
 }
-
+h3,h4{
+    margin-bottom: 3px;
+}
 .disable {
     display: none;
 }
@@ -298,7 +300,7 @@
     color:#0E3D6A;
     font-size: 18px;
     line-height: 1.3em;
-    padding: 5px 0px;
+    padding: 3px 0px;
 }
 .home-icon-vector:hover{
     opacity:1!important;

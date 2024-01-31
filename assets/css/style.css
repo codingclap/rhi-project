@@ -121,7 +121,9 @@
 [data-color="white"] {
     color: #fff;
 }
-
+[data-color="black"] {
+    color: #000000;
+}
 [data-color="blue"] {
     color: #003262;
 }
@@ -166,13 +168,18 @@
     font-weight: bold;
 }
 
+[data-line-height="1.5em"] {
+   line-height:1.5em;
+}
+[data-line-height="1.8em"] {
+    line-height:1.8em;
+ }
+
 * {
     margin: 0;
     padding: 0;
 }
-h3,h4{
-    margin-bottom: 3px;
-}
+ 
 .disable {
     display: none;
 }

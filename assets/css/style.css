@@ -223,6 +223,7 @@
     z-index: 1;
 }
 
+
 .swiper-slide img {
     display: block;
     object-fit: cover;
@@ -468,7 +469,133 @@
 
 }
 
+#secondaryDeck::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
 
+#secondaryDeck1::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck2::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck3::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck4::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck5::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck6::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck7::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+#secondaryDeck8::after{
+    content:" ";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/pattern.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+ 
 
 
 

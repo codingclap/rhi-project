@@ -210,7 +210,7 @@
  
 }
 .deck-container::after{
-    content:;
+    /* content:; */
     position: absolute;
     background-repeat: no-repeat;
     background-position: bottom;
